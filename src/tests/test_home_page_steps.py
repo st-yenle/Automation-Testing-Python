@@ -13,8 +13,8 @@ scenarios('../features/home_page.feature')
 
 @then(parsers.parse('The page title is "{page_title}"'))
 def check_page_title(browser, page_title):
-    time.sleep(1)
-    assert page_title == HomePage(browser).get_page_title()
+    # time.sleep(1)
+    assert HomePage(browser).get_page_title() == page_title
 
 
 

@@ -40,7 +40,7 @@ def click_login(browser):
 
 @then(parsers.parse('The page title is "{title}"'))
 def check_page_title(browser, title):
-    assert title == LoginPage(browser).get_page_title()
+    assert LoginPage(browser).get_page_title() == title
 
 
 

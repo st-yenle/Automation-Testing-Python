@@ -17,8 +17,7 @@ Feature: Login
     And I click on login button
     Then The page title is "<title>"
     Examples:
-      | username  | password | title                      |
-      | yenle     | 1234444  | GitHub                     |
-      | yenle     | 1234444  | Sign in to GitHub · GitHub |
-      | NgocYen68 | Yenle68! | GitHub                     |
+      | username    | password  | title                      |
+      | yenle       | 1234444   | Sign in to GitHub · GitHub |
+      | Ngocyenn123 | Abcd999!@ | GitHub                     |
 
